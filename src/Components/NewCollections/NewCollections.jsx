@@ -1,13 +1,14 @@
 import React from 'react'
 import './NewCollections.css'
+import Item from '../Item/Item'
 import new_collection from '../Assets/new_collections'
 
 const NewCollections = () => {
   return (
-    <div>
+    <div className="new-collections">
       <h1>New Collections</h1>
       <hr />
-      <div className="collections">
+      <div className='collections'>
         {new_collection.map((item, i) => {
           return (
             <Item

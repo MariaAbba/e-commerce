@@ -6,8 +6,10 @@ import Cart from './Pages/Cart'
 import ShopCategory from './Pages/ShopCategory'
 import LoginSignUp from './Pages/LoginSignUp'
 
+
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { useState } from 'react'
+import Footer from './Components/Footer/Footer'
 
 function App() {
   return (
@@ -25,6 +27,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/login" element={<LoginSignUp />} />
         </Routes>
+       <Footer/>
       </BrowserRouter>
     </div>
   )
