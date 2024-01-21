@@ -51,4 +51,9 @@
   font-weight: 500;
 }
 
-.hero-right {}
+.hero-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
