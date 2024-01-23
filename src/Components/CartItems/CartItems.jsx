@@ -24,7 +24,6 @@ const CartItems = () => {
               <div className="cartitems-format cartitems-format-main">
                 <img src={e.image} alt="" className="carticon-product-icon" />
                 <p>{e.name}</p>
-                {console.log(e.new_price)}
                 <p>${e.new_price}</p>
                 <button className="cartitems-quantity">
                   {cartItems[e.id]}
@@ -52,8 +51,6 @@ const CartItems = () => {
             <div className="cartitems-total-item">
               <p>Subtotal</p>
               <p>${getTotalCartAmount()}</p>
-          {    console.log(getTotalCartAmount())}
- 
             </div>
             <hr />
             <div className="cartitems-total-item">
