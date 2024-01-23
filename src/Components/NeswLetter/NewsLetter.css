@@ -50,5 +50,43 @@
   border-radius: 80px;
   background: #000;
   color: #fff;
-  font-size: 16px;cursor: pointer;
+  font-size: 16px;
+  cursor: pointer;
 }
+
+@media(max-width:1280px) {
+  .newsletter {
+    padding: 0 80px;
+    margin-bottom: 120px;
+    gap: 20px;
+  }
+
+  .newsletter h1 {
+    font-size: 36px;
+  }
+
+  .newsletter p {
+    font-size: 16px;
+  }
+
+  .newsletter div {
+    width: 600px;
+    height: 60px;
+  }
+
+  .newsletter div input {
+    width: 400px;
+
+  }
+
+  .newsletter div button {
+    width: 160px;
+    height: 60px;
+  }
+}
+
+@media(max-width:1024px) {}
+
+@media(max-width:800px) {}
+
+@media(max-width:500px) {}

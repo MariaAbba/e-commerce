@@ -80,15 +80,10 @@
 
 @media(max-width:500px) {
   .item {
-    width: 120px;
-    font-size: 12px;
+    width: 160px;
   }
 
   .item img {
-    width: 120px;
-  }
-
-  .item-price-old {
-    font-size: 12px;
+    width: 160px;
   }
 }
