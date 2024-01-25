@@ -86,7 +86,7 @@
 
 @media(max-width:500px) {
   .relatedproducts {
-    height: 85vh;
+    height: 100vh;
   }
 
   .relatedproducts-item {
@@ -96,9 +96,3 @@
   }
 }
 
-@media(max-width:500px) {
-  .relatedproducts {
-    height: 100vh;
-  }
-
-}

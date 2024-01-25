@@ -65,9 +65,15 @@
   }
 }
 
+@media(max-width:992px) {
+  .popular {
+    height: 85vh;
+  }
+}
+
 @media(max-width:800px) {
   .popular {
-    height: 50vh;
+    height: 70vh;
     gap: 6px;
   }
 
@@ -86,7 +92,7 @@
 
 @media(max-width:500px) {
   .popular {
-    height: 85vh;
+    height: 135vh;
   }
 
   .popular-item {
@@ -95,11 +101,3 @@
     gap: 20px;
   }
 }
-@media(max-width:500px) {
-  .popular {
-    height: 100vh;
-  }
-
-}
-
-
