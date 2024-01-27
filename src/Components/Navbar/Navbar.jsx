@@ -1,4 +1,4 @@
-import React, { useState, useContext, useRef } from 'react'
+import { useState, useContext, useRef } from 'react'
 import { ShopContext } from '../../Context/ShopContext'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
@@ -30,11 +30,7 @@ const Navbar = () => {
           alt="Dropdown"
         />
       <ul ref={menuRef} className="nav-menu">
-        <li
-          onClick={() => {
-            setMenu('shop')
-          }}
-        >
+        <li onClick={() => {setMenu('shop')}}>
           <Link to="/">Shop</Link> {menu === 'shop' ? <hr /> : <></>}
         </li>
         <li
