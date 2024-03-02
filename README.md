@@ -1,10 +1,11 @@
-<h1 align="Center">Responsive e-commerce website.</h1>
+<h1 align="Center">Responsive portfolio website.</h1>
 
 ###
 
 
 <div align="center">
-<img width="600" alt="Screenshot 2024-03-01 004224" src="https://github.com/MariaAbba/Pizza-React/assets/99909488/2ec426c6-d4b3-4bdc-b3c7-a175d24ebc6c">
+<img width="826" alt="e-com" src="https://github.com/MariaAbba/e-commerce/assets/99909488/46808c87-a8b7-4465-a420-8ec2123d747c">
+
 
 </div>
 
@@ -19,11 +20,6 @@
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
   <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg" height="40" alt="redux logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" height="40" alt="sass logo"  />
 </div>
 
 ###
